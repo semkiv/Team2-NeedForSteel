@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sys">
+      <UniqueIdentifier>{bd025285-8df3-4edd-a9c1-db4f5dacbeea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9073b2fd-4c49-4dc9-bc97-6754ac3d6e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\Level">
+      <UniqueIdentifier>{2d34c279-7f56-490d-ae34-35dbc06158b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config\ActorDef">
+      <UniqueIdentifier>{85e882e1-5291-453a-b0bd-2eb7dc92c8f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{18537e88-4d11-4001-8630-f5ee9de055c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Icons">
+      <UniqueIdentifier>{982aeeef-8fd2-4dfb-bf3d-9b6d761280ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{8f0070a7-399c-4156-ba7c-1fb97e4355d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{7b7438c8-edd3-46f6-ba07-d282cd5380fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Game">
+      <UniqueIdentifier>{9bd05aba-99fa-48fc-af82-4bca18bc4fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Game">
+      <UniqueIdentifier>{ed72cfe5-1da0-463f-8811-cfce04bdd27d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Game\AI">
+      <UniqueIdentifier>{4997bd16-3d36-46ad-b87f-0e00c2855418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Game\AI">
+      <UniqueIdentifier>{e2790043-4343-409e-b809-f4d80c23002d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Game\TiledMap">
+      <UniqueIdentifier>{c530b853-a47c-4673-8a91-3990d19ccd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Game\TiledMap">
+      <UniqueIdentifier>{9dda0d48-8310-4d9b-b037-96503c461751}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Angel\Scripting\Interfaces\AngelLuaWrapping.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>sys</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsUnit.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Team.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Tower.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetDetection.cpp">
+      <Filter>Sources\Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledMap.cpp">
+      <Filter>Sources\Game\TiledMap</Filter>
+    </ClCompile>
+    <ClCompile Include="TiledMapUnit.cpp">
+      <Filter>Sources\Game\TiledMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectorBuilding.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadQuarter.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="AIDriver.cpp">
+      <Filter>Sources\Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AIManager.cpp">
+      <Filter>Sources\Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="AITargetDriver.cpp">
+      <Filter>Sources\Game\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeTimeManager.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Mine.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlayScreen.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawner.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TMXParser.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLevelConfig.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUI.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeConfig.cpp" />
+    <ClCompile Include="VictoryBox.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopUI.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerEffectManager.cpp" />
+    <ClCompile Include="LuaManager.cpp" />
+    <ClCompile Include="SpawnerUI.cpp">
+      <Filter>Sources\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="platforms\win\ClientGame.rc">
+      <Filter>sys</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="platforms\win\resource.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>sys</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolFactory.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsUnit.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Team.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Tower.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetDetection.h">
+      <Filter>Headers\Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledMap.h">
+      <Filter>Headers\Game\TiledMap</Filter>
+    </ClInclude>
+    <ClInclude Include="TiledMapUnit.h">
+      <Filter>Headers\Game\TiledMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="DetectorBuilding.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadQuarter.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="AIDriver.h">
+      <Filter>Headers\Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AIManager.h">
+      <Filter>Headers\Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="AITargetDriver.h">
+      <Filter>Headers\Game\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeTimeManager.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Mine.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlayScreen.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawner.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TMXParser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLevelConfig.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerUI.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeConfig.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="VictoryBox.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopUI.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerEffectManager.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnerUI.h">
+      <Filter>Headers\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Config\defaults.lua">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="Config\input_bindings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="Config\tuning.lua">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="Documentation\Attributions.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="Documentation\GameInfo.txt">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="platforms\win\angel.ico">
+      <Filter>Icons</Filter>
+    </None>
+    <None Include="platforms\win\angel_small.ico">
+      <Filter>Icons</Filter>
+    </None>
+    <None Include="build.lua" />
+    <None Include="Resources\Scripts\client_start.lua" />
+    <None Include="script_interface.i" />
+    <None Include="Config\ActorDef\BasicBullet.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\BasicHQ.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\BasicMine.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\BasicTank.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\BasicTargetDetector.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\BasicTargetTurret.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\BasicTower.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\BasicTurret.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\HeadQuarterDetector.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\MainTower.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\MainTowerDetector.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\TowerDetector.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\ActorDef\TowerTurret.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\Level\01.lua">
+      <Filter>Config\Level</Filter>
+    </None>
+    <None Include="Config\ActorDef\TankTurret.lua">
+      <Filter>Config\ActorDef</Filter>
+    </None>
+    <None Include="Config\UpgradesConfig.lua">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="Config\Level\02.lua">
+      <Filter>Config\Level</Filter>
+    </None>
+    <None Include="Config\animations.lua">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="Config\smoke.lua">
+      <Filter>Config</Filter>
+    </None>
+  </ItemGroup>
+</Project>

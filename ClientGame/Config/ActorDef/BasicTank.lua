@@ -1,0 +1,19 @@
+sprite = "Resources/Images/tank_body_camouflage.png"
+maxHealth = 5
+healMultiplayer = 3.0
+maxForwardSpeed = 1.75
+maxBackwardSpeed = 0.8
+acceleration = 3.5
+rotationSpeed = 1.0
+horizontalFriction = 2.0
+size = {
+    length = 1.45,
+    width = 0.95
+}
+density = 1.0
+friction = 0.5
+restitution = 0.0
+feedBack = 0.1
+turret = "Config/ActorDef/TankTurret.lua"
+damageType = 3 -- 0: COLLISION, 1: BULLET, 2: EXPLOSION
+worth = 100

@@ -1,0 +1,19 @@
+maxHealth = 2.5
+sprite = "Resources/Images/tower_grayscale.png"
+size = {
+    length = 0.7,
+    width = 0.7
+}
+density = 0.6
+friction = 0.0
+restitution = 0.0
+maxForwardSpeed = 0.75
+maxBackwardSpeed = 0.35
+acceleration = 15.0
+rotationSpeed = 4.0
+horizontalFriction = 0.3
+damageRadius = 2.25
+explosionDamage = 3.0
+damage = 0.0
+damageType = 3 -- 0: COLLISION, 1: BULLET, 2: EXPLOSION, 3: MELEE
+worth = 20
